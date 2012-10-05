@@ -1,0 +1,67 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mostardesign
+ * License URL: http://www.fontspring.com/fflicense/mostardesign
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'SofiaProLightRegular';
+    src: url('fonts/SofiaProLight/SofiaProLight-webfont.eot');
+    src: url('fonts/SofiaProLight/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SofiaProLight/SofiaProLight-webfont.woff') format('woff'),
+         url('fonts/SofiaProLight/SofiaProLight-webfont.ttf') format('truetype'),
+         url('fonts/SofiaProLight/SofiaProLight-webfont.svg#SofiaProLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {margin:0; background-image:url('images/background.gif'); background-repeat:repeat;}
+h1 {font-family: 'SofiaProLightRegular', 'Futura', sans-serif;  font-size:54px; color:#363535;}
+p {margin:0;font-family: 'Myriad Pro', Arial, sans-serif;  font-size:20px; color:#363535;}
+
+#main_wrapper{
+	width:100%;
+}
+
+#header{background-image:url('images/header_bg.gif');
+		background-repeat:repeat;
+		width:100%;
+		height:125px;
+}
+
+#logo{margin-left:48%;}
+#buttons_container{margin-top:22px;}
+#content_container{width:1000px; margin:auto;}
+#first_block_logo {width:400px;}
+#second_block_logo {width:400px;}
+#divider{background-image:url('images/dots.gif'); background-repeat:repeat; height:8px;}
+#footer p{font-size:12px; color:#000;}
+#footer {text-align:center; margin-top:40px;}
+
+.float_left{float:left;}
+.clear{clear:both;}
+
+
+.top-margin{margin-top:40px;}
+.button-left-margin {margin-left:0px;}
